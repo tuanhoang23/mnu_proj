@@ -7,7 +7,7 @@
 @section('content')
 
     @if (session('msg'))
-        <div class="alert alert-success">{{session('msg')}}</div>
+        <div class="alert alert-success text-center">{{session('msg')}}</div>
     @endif
 
     @if ($errors->any())
